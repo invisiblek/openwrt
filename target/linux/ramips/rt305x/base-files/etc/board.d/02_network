@@ -96,6 +96,7 @@ ramips_setup_interfaces()
 	dlink,dir-300-b7|\
 	dlink,dir-320-b1|\
 	dlink,dir-610-a1|\
+	dlink,dir-808l|\
 	edimax,3g-6200n|\
 	hilink,hlk-rm04|\
 	nixcore,x1-16m|\

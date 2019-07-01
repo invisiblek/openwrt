@@ -199,6 +199,16 @@ define Device/dlink_dir-510l
 endef
 TARGET_DEVICES += dlink_dir-510l
 
+define Device/dlink_dir-808l
+  SOC := mt7620a
+  DEVICE_PACKAGES := kmod-mt76x0e
+  DEVICE_VENDOR := D-Link
+  DEVICE_MODEL := DIR-808L
+  IMAGE_SIZE := 6720k
+  SUPPORTED_DEVICES += dir-808l
+endef
+TARGET_DEVICES += dlink_dir-808l
+
 define Device/dlink_dir-810l
   SOC := mt7620a
   DEVICE_PACKAGES := kmod-mt76x0e
